@@ -6,6 +6,7 @@ import Properties from "./Properties";
 import AboutUs from "./AboutUs";
 import Header2 from "./Header2";
 import SignupPage from "./SignupPage";
+import ContactUs from "./ContactUs";
 function App() {
   return (
     <Router>
@@ -17,11 +18,10 @@ function App() {
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/login" element={<LoginPage/>} />
           <Route path="/signup" element={<SignupPage/>} />
+          <Route path="/contact" element={<ContactUs/>} />
         </Routes>
       </div>
     </Router>
-    // <>
-    // <LoginPage/></>
     
   );
 }

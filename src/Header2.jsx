@@ -151,8 +151,8 @@ const Header2 = () => {
             <li style={navItemStyle}><a href="/" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>Home</a></li>
             <li style={navItemStyle}><a href="/properties" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>Properties</a></li>
             <li style={navItemStyle}><a href="/communities" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>Communities</a></li>
-            <li style={navItemStyle}><a href="/about" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>AboutUs</a></li>
-            <li style={navItemStyle}><a href="/about" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>Contact</a></li>
+            <li style={navItemStyle}><a href="/about" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>About Us</a></li>
+            <li style={navItemStyle}><a href="/contact" style={navLinkStyle} onMouseOver={(e) => (e.target.style.color = "#3498db")} onMouseOut={(e) => (e.target.style.color = "#2c3e50")}>Contact Us</a></li>
           </ul>
           <a href="/login" style={btnLoginStyle}>Login / Sign Up</a>
         </nav>
