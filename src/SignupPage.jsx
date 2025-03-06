@@ -1,10 +1,11 @@
 import React from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const SignupPage = () => {
   return (
     <div>
-      <header style={{
+      {/* <header style={{
         backgroundColor: "#fff",
         boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)",
         position: "sticky",
@@ -36,8 +37,8 @@ const SignupPage = () => {
             textDecoration: "none"
           }}>Login / Sign Up</a>
         </div>
-      </header>
-      
+      </header> */}
+      <Header/>
       <section style={{
         padding: "80px 0",
         minHeight: "calc(100vh - 400px)",

@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "./Footer";
 
+import Header2 from "./Header2";
+
 const AboutUs = () => {
     const styles = {
         containerabout: {
@@ -69,7 +71,7 @@ const AboutUs = () => {
 
     return (
         <div>
-            <header style={styles.headerabout}>
+            {/* <header style={styles.headerabout}>
                 <div style={styles.containerabout}>
                     <nav style={styles.nav}>
                         <div style={styles.logo}>MyLiving</div>
@@ -82,8 +84,8 @@ const AboutUs = () => {
                         </ul>
                     </nav>
                 </div>
-            </header>
-
+            </header> */}
+            <Header2/>
             <section style={styles.heroSection}>
                 <div style={styles.container}>
                     <h1>Reimagining Community Living</h1>

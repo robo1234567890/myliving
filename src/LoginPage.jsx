@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -33,7 +34,7 @@ const LoginPage = () => {
 
   return (
     <div>
-      <header style={{ backgroundColor: "#fff", boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)", position: "sticky", top: 0, zIndex: 1000, padding: "20px 0" }}>
+      {/* <header style={{ backgroundColor: "#fff", boxShadow: "0 2px 10px rgba(0, 0, 0, 0.1)", position: "sticky", top: 0, zIndex: 1000, padding: "20px 0" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ fontSize: "24px", fontWeight: "bold", color: "#4a6bff" }}>MyLiving</div>
           <nav>
@@ -54,6 +55,9 @@ const LoginPage = () => {
           <a href="login.html" style={{ backgroundColor: "#4a6bff", color: "white", padding: "10px 20px", borderRadius: "5px", textDecoration: "none", fontWeight: "500" }}>Login / Sign Up</a>
         </div>
       </header>
+      */}
+
+      <Header/>
       <section style={{ padding: "80px 0", minHeight: "calc(100vh - 400px)", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)", borderRadius: "10px", overflow: "hidden", backgroundColor: "white", maxWidth: "1000px" }}>
           <div style={{ background: "url('community-image.jpg') center/cover", position: "relative", minHeight: "600px" }}>
@@ -65,7 +69,7 @@ const LoginPage = () => {
           <div style={{ padding: "50px 40px" }}>
             <div>
               <h2 style={{ fontSize: "28px", color: "#333", marginBottom: "10px" }}>Log In</h2>
-              <p>Don't have an account? <a href="signup.html" style={{ color: "#4a6bff", textDecoration: "none", fontWeight: "500" }}>Sign Up</a></p>
+              <p>Don't have an account? <a href="/signup" style={{ color: "#4a6bff", textDecoration: "none", fontWeight: "500" }}>Sign Up</a></p>
             </div>
             <form onSubmit={handleLogin}>
               <div>

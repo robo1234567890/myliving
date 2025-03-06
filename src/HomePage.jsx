@@ -1,27 +1,28 @@
 import React from 'react';
-import './style.css'; // Ensure you have the CSS file in the same directory
+import './Homepage.css'; // Ensure you have the CSS file in the same directory
 import Footer from './Footer';
+import Header from './Header';
 
 const HomePage = () => {
     return (
         <div>
             {/* Header */}
-            <header>
+            {/* <header>
                 <div className="container">
                     <nav>
                         <div className="logo">MyLiving</div>
                         <ul className="nav-links">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="properties.html">Properties</a></li>
-                            <li><a href="communities.html">Communities</a></li>
-                            <li><a href="aboutus.html">About Us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/properties">Properties</a></li>
+                            <li><a href="/communities">Communities</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/communities">Contact</a></li>
                         </ul>
                         <a href="login.html" className="btn">Login / Sign Up</a>
                     </nav>
                 </div>
-            </header>
-
+            </header> */}
+            <Header/>
             {/* Hero Section */}
             <section className="hero">
                 <div className="container">
